@@ -1,0 +1,10 @@
+div#generator{float:left; width: 100%; margin-bottom:50px; font-size: 1.1em}
+	
+	div.field{float:left; margin-bottom:10px; width:100%;}
+		div.field label{float:left; margin-right:10px; width:25%; text-align: right; margin-top:5px;}
+		div.field input, div.field select{float:left; font-size: 1.1em}
+	div.actions{float:left; margin-left:25%;}
+		div.actions button{margin-left:10px; background-color: #002b5c; color: #f2f2f2; border: none; border-radius: 6px; padding:10px; font-size: 1.1em}
+	
+	div#generated{float:left; width:90%; background-color: #f2f2f2; border: thin solid #ccc; border-radius:6px; padding:1% 5%; display: none}
+

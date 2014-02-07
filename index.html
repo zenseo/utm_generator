@@ -1,0 +1,57 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css" media="all">
+
+
+<h1>UTM Campaign Link Generator Tool Thingy</h1>
+
+<div id="generator">
+	
+	<div class="field">
+		<label for="url">What is the URL?</label>
+		<select name="protocol" id="protocol">
+			<option>http://</option>
+			<option>https://</option>
+		</select>
+		<input id="url" name="url">
+	</div>
+	
+	<div class="field">
+		<label for="term">Describe this link</label>
+		<input id="term" name="term">
+	</div>
+
+
+	<div class="field">
+		<label for="medium">How are you sending this?</label>
+		<select id="medium" name="medium"></select>
+	</div>
+
+
+	<div class="field">
+		<label for="source">Where are you getting the email list?</label>
+		<select id="source" name="source"></select>
+	</div>
+
+	<div class="field">
+		<label for="content">What type of link is this?</label>
+		<select id="content" name="content"></select>
+	</div>
+
+	<div class="field">
+		<label for="campaign">What campaign is this for?</label>
+		<select id="campaign" name="campaign"></select>
+	</div>
+
+	<div class="actions">
+		<button id="generate">Generate Link</button>
+	</div>
+</div>
+
+
+<div id="generated">
+	<div id="code"></div>
+</div>
+
+
+
